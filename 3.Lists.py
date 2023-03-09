@@ -28,3 +28,13 @@ print('The item at index 1 is ' + list[1])
 
 # get the length of a list
 print('Length of the list is : ', len(list))
+
+
+# join lists using addition operator
+strList = ['apple', 'banana', 'orange']
+intList = [2, 4, 6]
+comboList = intList + strList
+print(comboList)
+
+# using the multiplication operator on a list to repeat the list sequence that many number of times
+print(intList * 3)

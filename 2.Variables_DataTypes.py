@@ -2,13 +2,13 @@
 # There is no need to declare variables & their types before using them
 
 # NUMBERS - Python supports two types of numbers - integers(whole numbers) and floating point numbers(decimals)
-
 # define an integer
 intVal = 10
 print("The Integer value is : ", intVal)
 print("The integer value is : %d" % intVal)
 if (isinstance(intVal, int)):
     print(isinstance(intVal, int), " : this is an integer")
+
 # define a float by assigning a value to it
 floatVal = 10.0
 print("The Float value is : ", floatVal)
@@ -17,7 +17,6 @@ print("The  Float value is : %f" % floatVal)
 # or by using the float function
 floatVal = float(15)
 print("The New Float value is : ",  floatVal)
-
 if (isinstance(floatVal, float)):
     print(isinstance(floatVal, float), " : this is a float")
 
